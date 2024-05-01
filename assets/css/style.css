@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #007bff;
+}
+
+
+.click-button-custom button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 20px 30px;
+    cursor: pointer;
+}
+.click-button-custom button:hover{
+    background-color: #007bff;
+    color: white;
+}
+.modal-custom .linear-custom hr{
+    opacity:0.3;
+}
+
+.modal-custom{
+    width: 33%;
+    margin: 0 auto 0 auto;
+    background-color: white;
+    height: 268px;
+    border-radius: 10px;
+    display: none;
+    transition: 0.4s;
+}
+.modal-custom .modal-body-custom{
+    padding: 30px 10px;
+}
+
+.modal-custom  .modal-header-custom{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-custom  .modal-header-custom .modal-title-custom{
+    margin-top: 5px;
+}
+.modal-custom  .modal-header-custom .modal-icon{
+    cursor: pointer;
+}
+.modal-custom  .modal-header-custom .modal-icon i{
+    font-size: 25px;
+    color: #6c757d;
+}
+
+.modal-custom .modal-footer-custom{
+    padding: 25px 10px;
+}
+
+.modal-custom .modal-footer-custom button{
+    margin-bottom: 2px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.modal-custom .modal-footer-custom .save-btn{
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    
+}
+
+.modal-custom .modal-footer-custom .close-btn{
+    margin-left: 280px;
+    padding: 10px 10px;
+    background-color: #6c757d;
+    color: white;
+    
+
+}
